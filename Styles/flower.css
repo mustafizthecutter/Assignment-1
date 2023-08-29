@@ -57,6 +57,15 @@ body {
 
 /*--------- main section start here------*/
 
+main {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+main section {
+    margin-bottom: 130px;
+}
+
 
 /* .advertisement-info {
 
@@ -91,7 +100,7 @@ body {
 
 } */
 
-/* discount section start here */
+/* --------discount section start here---------- */
 
 .discount {
     display: flex;
@@ -134,4 +143,34 @@ body {
 
 #discount-btn {
     margin: 0px 0px 0px 203px;
+}
+
+/*-------Social Media Section ----------*/
+
+.social-media-info {
+
+    text-align: center;
+
+}
+
+.social-media-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.social-media-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    text-align: center;
+
+}
+
+.flowers-items-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
 }
