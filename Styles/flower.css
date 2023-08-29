@@ -9,6 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Secular One', sans-serif;
+
 }
 
 .btn-primary {
@@ -52,4 +53,85 @@ body {
 
 .banner-image {
     padding: 50px 240px 0px 0px;
+}
+
+/*--------- main section start here------*/
+
+
+/* .advertisement-info {
+
+    text-align: center;
+}
+
+.advertisement-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.advertisement-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+
+} */
+
+/* Support Section start here */
+/* .services {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+
+} */
+
+/* discount section start here */
+
+.discount {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    gap: 186px;
+}
+
+.discount-info {
+    padding: 230px 0px 162px 395px;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.discount .color-change {
+    color: #E55473;
+
+}
+
+.discount-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 650px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.discount-image {
+    padding: 100px 430px 100px 0px
+}
+
+#discount-btn {
+    margin: 0px 0px 0px 203px;
 }
