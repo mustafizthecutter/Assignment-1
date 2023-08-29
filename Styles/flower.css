@@ -29,6 +29,7 @@ body {
     gap: 97px;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .banner-info {
@@ -87,18 +88,30 @@ main section {
 
 } */
 
-/* Support Section start here */
-/* .services {
+/* ---------Support Section start here-------- */
+.services {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+
 
 }
 
 .services-container {
     display: flex;
-    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 86px 175px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+}
 
-} */
+.delivery-man {}
+
+
+
 
 /* --------discount section start here---------- */
 
