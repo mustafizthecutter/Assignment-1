@@ -22,7 +22,7 @@ body {
 }
 
 /* header related styles */
-.header {
+.banner {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
     gap: 97px;
@@ -30,11 +30,11 @@ body {
     align-items: center;
 }
 
-.header-info {
-    padding: 197px 0px 147px 240px;
+.banner-info {
+    padding: 197px 0px 100px 240px;
 }
 
-.header-title {
+.banner-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
@@ -42,7 +42,7 @@ body {
     margin-bottom: 32px;
 }
 
-.header-description {
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -50,6 +50,6 @@ body {
     margin-bottom: 32px
 }
 
-.header-image {
+.banner-image {
     padding: 50px 240px 0px 0px;
 }
