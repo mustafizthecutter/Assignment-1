@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* common shared styles */
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+/* header related styles */
+.header {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    gap: 97px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-info {
+    padding: 197px 0px 147px 240px;
+}
+
+.header-image {
+    padding: 50px 240px 0px 0px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 700px;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 634px;
+}
