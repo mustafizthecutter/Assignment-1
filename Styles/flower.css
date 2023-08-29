@@ -11,6 +11,16 @@ body {
     font-family: 'Secular One', sans-serif;
 }
 
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: 0px;
+}
+
 /* header related styles */
 .header {
     display: flex;
@@ -24,15 +34,12 @@ body {
     padding: 197px 0px 147px 240px;
 }
 
-.header-image {
-    padding: 50px 240px 0px 0px;
-}
-
 .header-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
     max-width: 700px;
+    margin-bottom: 32px;
 }
 
 .header-description {
@@ -40,4 +47,9 @@ body {
     font-size: 18px;
     font-weight: 400;
     max-width: 634px;
+    margin-bottom: 32px
+}
+
+.header-image {
+    padding: 50px 240px 0px 0px;
 }
