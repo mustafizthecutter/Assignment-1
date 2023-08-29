@@ -174,3 +174,41 @@ main section {
     gap: 24px;
     justify-content: space-around;
 }
+
+/*------ Latest Deals & Searching Bar Start Here --------*/
+
+.latest-deal {
+    padding: 125px;
+    border-radius: 8px;
+    background-image: url(../Assests/Rectangle\ 9.png);
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.latest-deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px
+}
+
+.searching {
+    display: flex;
+    padding-left: 160px;
+}
+
+.input {
+    padding: 22px 515px 22px 23px;
+    margin-right: 16px;
+    border: 0px;
+}
