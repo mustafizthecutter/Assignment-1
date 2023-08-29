@@ -212,3 +212,43 @@ main section {
     margin-right: 16px;
     border: 0px;
 }
+
+
+/* Footer Section Start Here */
+footer {
+    background-color: black;
+    width: auto;
+    height: 450px;
+    padding: 200px 0px 0px 0px;
+
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.footer-title span {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.footer-copyrights {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
